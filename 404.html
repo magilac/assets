@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página no encontrada - 404</title>
+  <style>
+    /* Variables de estilo */
+    :root {
+      --bg-color: #0f172a;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent-color: #6366f1;
+      --accent-hover: #4f46e5;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 500px;
+    }
+
+    .error-code {
+      font-size: 8rem;
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -0.05em;
+      color: var(--accent-color);
+      margin-bottom: 0.5rem;
+      text-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+    }
+
+    h1 {
+      font-size: 1.875rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .btn-home {
+      display: inline-block;
+      background-color: var(--accent-color);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.875rem 1.75rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+
+    .btn-home:hover {
+      background-color: var(--accent-hover);
+      transform: translateY(-2px);
+    }
+
+    .btn-home:active {
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    <div class="error-code">404</div>
+    <h1>¡Página no encontrada!</h1>
+    <p>Lo sentimos, la página que buscas no existe, ha sido movida o nunca estuvo disponible.</p>
+    <a href="/" class="btn-home">Volver al Inicio</a>
+  </main>
+
+</body>
+</html>
